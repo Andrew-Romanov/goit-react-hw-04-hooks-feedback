@@ -1,0 +1,29 @@
+.Statistics {
+  &__StatsList {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: -8px;
+
+    &Item {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 8px;
+      background-color: rgba(255, 255, 255, 0.8);
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+
+      &Label {
+        font-size: 16px;
+        text-transform: capitalize;
+      }
+
+      &Percentage {
+        font-size: 18px;
+        font-weight: 600;
+      }
+    }
+  }
+}

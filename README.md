@@ -1,1 +1,1 @@
-# goit-react-hw-04-hooks-feedback
+Домашнее задание 4. Виджет отзывов
